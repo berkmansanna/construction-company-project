@@ -1,25 +1,31 @@
 import { NavLink, Outlet } from 'react-router-dom';
+import { NavList, NavItems } from './Layout.styled';
+import Logo from 'components/Logo/Logo';
 
 const Layout = () => {
   return (
     <>
+    <header>
+<Logo/>
       <nav>
-        <ul>
-          <li>
+        <NavList>
+          <NavItems>
             <NavLink to="/">Company</NavLink>
-          </li>
-          <li>
+          </NavItems>
+          <NavItems>
             <NavLink to="/progects">Progects</NavLink>
-          </li>
-          <li>
+          </NavItems>
+          <NavItems>
             <NavLink to="/contacts">Contacts</NavLink>
-          </li>
-        </ul>
+          </NavItems>
+        </NavList>
       </nav>
+      </header>
       <main>
         <Outlet />
       </main>
     </>
+      
   );
 };
 export default Layout;
