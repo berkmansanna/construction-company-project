@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/construction-company-project/static/css/main.7acaea2f.css",
-    "main.js": "/construction-company-project/static/js/main.0a72fee7.js",
+    "main.css": "/construction-company-project/static/css/main.c563a078.css",
+    "main.js": "/construction-company-project/static/js/main.2207c210.js",
     "index.html": "/construction-company-project/index.html",
-    "main.7acaea2f.css.map": "/construction-company-project/static/css/main.7acaea2f.css.map",
-    "main.0a72fee7.js.map": "/construction-company-project/static/js/main.0a72fee7.js.map"
+    "main.c563a078.css.map": "/construction-company-project/static/css/main.c563a078.css.map",
+    "main.2207c210.js.map": "/construction-company-project/static/js/main.2207c210.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.0a72fee7.js"
+    "static/css/main.c563a078.css",
+    "static/js/main.2207c210.js"
   ]
 }
